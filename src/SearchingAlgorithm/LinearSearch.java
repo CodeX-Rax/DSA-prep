@@ -1,4 +1,4 @@
-package SortingAlgorithm;
+package SearchingAlgorithm;
 
 import java.util.Scanner;
 

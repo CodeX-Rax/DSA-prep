@@ -1,4 +1,4 @@
-package SortingAlgorithm;
+package SearchingAlgorithm;
 
 public class BinarySearch {
     // Returns index of x if it is present in arr[].
