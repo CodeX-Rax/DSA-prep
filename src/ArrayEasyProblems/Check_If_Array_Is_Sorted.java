@@ -1,15 +1,15 @@
 package ArrayEasyProblems;
 
 public class Check_If_Array_Is_Sorted {
-    static int isSorted(int arr[], int n) {
+    static boolean isSorted(int arr[], int n) {
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[i])
-                    return -1;
+                    return false;
             }
         }
 
-        return 1;
+        return true;
     }
 
     public static void main(String args[]) {
